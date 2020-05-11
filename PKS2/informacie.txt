@@ -1,0 +1,59 @@
+#Ethertypes
+0x0800 IPv4
+0x0806 ARP
+0x08dd IPv6
+#LSAPs
+0x42 STP
+0xaa SNAP
+0xe0 IPX
+#IP Protocol numbers
+0x01 1 ICMP
+0x06 6 TCP
+0x11 17 UDP
+#TCP ports
+0x0016 22 SSH
+0x0050 80 HTTP
+0x0014 20 FTP_data
+0x0015 21 FTP_riadenie
+0x0017 23 Telnet
+0x01bb 443 HTTPS
+#UDP ports
+0x0035 53 DNS
+0x0045 69 TFTP
+#ICMP types
+0 Echo_Reply
+3 Destination_Unreachable
+4 Source_Quench_(Deprecated)
+5 Redirect
+6 Alternate_Host_Address_(Deprecated)
+8 Echo_Request
+9 Router_Advertisement
+10 Router_Solicitation
+11 Time_Exceeded
+12 Parameter_Problem
+13 Timestamp
+14 Timestamp_Reply
+15 Information_Request_(Deprecated)
+16 Information_Reply_(Deprecated)
+17 Address_Mask_Request_(Deprecated)
+18 Address_Mask_Reply_(Deprecated)
+19 Reserved_(for Security)
+20 Reserved_(for_Robustness_Experiment)
+29 Reserved_(for_Robustness_Experiment)
+30 Traceroute_(Deprecated)
+31 Datagram_Conversion_Error_(Deprecated)
+32 Mobile_Host_Redirect_(Deprecated)
+33 IPv6_Where-Are-You_(Deprecated)
+34 IPv6_I-Am-Here_(Deprecated)
+35 Mobile_Registration_Request_(Deprecated)
+36 Mobile_Registration_Reply_(Deprecated)
+37 Domain_Name_Request_(Deprecated)
+38 Domain_Name_Reply_(Deprecated)
+39 SKIP_(Deprecated)
+40 Photuris
+41 ICMP_messages_utilized_by_experimental_mobility_protocols_such_as_Seamoby
+42 Extended_Echo_Request
+43 Extended_Echo_Reply
+253 RFC3692-style_Experiment_1
+254 RFC3692-style_Experiment_2
+255 Reserved

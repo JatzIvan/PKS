@@ -10,7 +10,7 @@ ADDR_Servera, PORT, addr, VOLBA = None, None, None, None
 socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 socket.setblocking(True)
 
-# Funkciu som skopiroval zo stackoverflow, ale upravil som si ju podľa svojej potreby, pri necinnosti sa kazdych 30 sek posle fragment keep alive
+
 def readInput( caption, default, timeout=30):
     zaciatocny_cas = time.time()
     sys.stdout.write('%s'%(caption))
